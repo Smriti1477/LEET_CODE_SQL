@@ -25,3 +25,6 @@ WHERE s1.rn_first = 1
   AND s2.score > s1.score
 ORDER BY s1.student_id, s1.subject;
 
+
+
+
