@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+# Write your MySQL query statement below
 with cte as (
 select *,
 row_number() over(partition by user_id order by event_date desc ) as rk
